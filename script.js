@@ -182,6 +182,7 @@ function createParticles() {
 }
 
 createParticles();
+applyLang();
 
 /* ============================================================
    CONTACT FORM – demo handler
