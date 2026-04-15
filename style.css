@@ -617,7 +617,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-size: 0.85rem; font-weight: 700; color: var(--clr-green); letter-spacing: 0.05em;
 }
 
-.running-gallery .gallery-item { height: 340px; }
+.running-gallery .gallery-item { height: 500px; }
+.running-gallery .gallery-item img { object-position: center top; }
 
 /* Other interests */
 .other-interests {
@@ -747,7 +748,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hamburger { display: flex; }
   .travel-gallery { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
   .gallery-large { grid-column: span 2; }
-  .running-gallery .gallery-item { height: 220px; }
+  .running-gallery .gallery-item { height: 400px; }
 }
 
 @media (max-width: 580px) {
@@ -762,7 +763,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .travel-gallery { grid-template-columns: 1fr; }
   .gallery-large { grid-column: span 1; }
   .running-gallery { grid-template-columns: 1fr; }
-  .running-gallery .gallery-item { height: 240px; }
+  .running-gallery .gallery-item { height: 400px; }
   .lang-cards { flex-direction: row; }
   .contact-form { padding: 24px; }
   .section { padding: 72px 0; }
