@@ -618,7 +618,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .running-gallery .gallery-item { height: 500px; }
-.running-gallery .gallery-item img { object-position: center top; }
 
 /* Other interests */
 .other-interests {
